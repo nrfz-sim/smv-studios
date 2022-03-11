@@ -525,6 +525,7 @@ section {
   color: #e4e4e4;
   font-family: "Poppins", sans-serif;
   text-align: center;
+  cursor: default;
 }
 
 /*  */
@@ -546,6 +547,7 @@ section {
   font-family: "Poppins", sans-serif;
   color: #fff;
   text-align: center;
+  cursor: default;
 }
 
 /*--------------------------------------------------------------
@@ -585,27 +587,18 @@ section {
   font-size: 14px;
   color: #2e4b5e;
 }
-.about .count-box a {
-  font-weight: 600;
-  display: block;
-  margin-top: 20px;
-  color: #2e4b5e;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  transition: ease-in-out 0.3s;
-}
-.about .count-box a:hover {
-  color: #477392;
-}
+
 .about .content {
   font-size: 17px;
 }
+
 .about .content h3 {
   font-weight: 700;
   font-size: 24px;
   color: #fff;
   text-align: center;
   padding-bottom: 0.3em;
+  cursor: default;
 }
 
 .about p.fst-italic {
@@ -613,6 +606,7 @@ section {
   text-align: justify;
   padding-bottom: 0.2em;
   color: #fff;
+  cursor: default;
 }
 
 .about .content ul {
@@ -915,22 +909,15 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
-}
-.services .icon-box h4 a {
   color: #fff;
-  transition: 0.3s;
-}
-.services .icon-box .icon-box:hover h4 a {
-  color: #be844d;
+  cursor: default;
 }
 .services .icon-box p {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
   color: #fff;
-}
-.services .icon-box:hover h4 a {
-  color: #be844d;
+  cursor: default;
 }
 
 /*--------------------------------------------------------------
@@ -962,13 +949,9 @@ section {
 .testimonials .testimonial-item {
   text-align: center;
   color: #fff;
+  cursor: default;
 }
-.testimonials .testimonial-item .testimonial-img {
-  width: 100px;
-  border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.15);
-  margin: 0 auto;
-}
+
 .testimonials .testimonial-item h3 {
   font-size: 20px;
   font-weight: bold;
@@ -1001,6 +984,7 @@ section {
   margin: 0 auto 15px auto;
   color: #eee;
 }
+
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
     width: 80%;
@@ -1079,13 +1063,15 @@ section {
   width: 14em; 
   white-space: nowrap; 
   overflow: hidden;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
+  cursor: default; 
 
 }
 .portfolio .portfolio-item .portfolio-info p {
   color: #fff;
   font-size: 14px;
   margin-bottom: 0;
+  cursor: default;
 }
 .portfolio .portfolio-item .portfolio-info .preview-link,
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1522,15 +1508,7 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-}
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
-}
-#footer .credits a {
-  transition: 0.3s;
+  cursor: default;
 }
 
 
