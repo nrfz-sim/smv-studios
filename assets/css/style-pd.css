@@ -501,7 +501,7 @@ section {
 
 /*  */
 #about,
-#portfolio,
+#releases,
 #contact {
   background-color: #2c2925;
 }
@@ -1008,16 +1008,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Releases
 --------------------------------------------------------------*/
-.portfolio #portfolio-flters {
+.releases #releases-flters {
   padding: 0;
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
   border-radius: 50px;
 }
-.portfolio #portfolio-flters li {
+.releases #releases-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 16px;
@@ -1030,24 +1030,24 @@ section {
   background: #e5edf3;
   border-radius: 4px;
 }
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.releases #releases-flters li:hover,
+.releases #releases-flters li.filter-active {
   color: #fff;
   background: #be844d;
 }
-.portfolio #portfolio-flters li:last-child {
+.releases #releases-flters li:last-child {
   margin-right: 0;
 }
-.portfolio .portfolio-item {
+.releases .releases-item {
   margin-bottom: 30px;
   overflow: hidden;
 }
-.portfolio .portfolio-item img {
+.releases .releases-item img {
   position: relative;
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.portfolio .portfolio-item .portfolio-info {
+.releases .releases-item .releases-info {
   opacity: 0;
   position: absolute;
   left: 15px;
@@ -1058,7 +1058,7 @@ section {
   background: #be844d;
   padding: 15px 20px;
 }
-.portfolio .portfolio-item .portfolio-info h4 {
+.releases .releases-item .releases-info h4 {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
@@ -1069,14 +1069,14 @@ section {
   cursor: default; 
 
 }
-.portfolio .portfolio-item .portfolio-info p {
+.releases .releases-item .releases-info p {
   color: #fff;
   font-size: 14px;
   margin-bottom: 0;
   cursor: default;
 }
-.portfolio .portfolio-item .portfolio-info .preview-link,
-.portfolio .portfolio-item .portfolio-info .details-link {
+.releases .releases-item .releases-info .preview-link,
+.releases .releases-item .releases-info .details-link {
   position: absolute;
   right: 50px;
   font-size: 24px;
@@ -1084,37 +1084,37 @@ section {
   color: white;
   transition: ease-in-out 0.3s;
 }
-.portfolio .portfolio-item .portfolio-info .preview-link:hover,
-.portfolio .portfolio-item .portfolio-info .details-link:hover {
+.releases .releases-item .releases-info .preview-link:hover,
+.releases .releases-item .releases-info .details-link:hover {
   color: #ffc1b0;
 }
-.portfolio .portfolio-item .portfolio-info .details-link {
+.releases .releases-item .releases-info .details-link {
   right: 15px;
 }
-.portfolio .portfolio-item:hover img {
+.releases .releases-item:hover img {
   top: -30px;
 }
-.portfolio .portfolio-item:hover .portfolio-info {
+.releases .releases-item:hover .releases-info {
   opacity: 1;
   bottom: 0;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Releases Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.releases-details {
   padding-top: 40px;
   background-color: #2c2925;
 }
-.portfolio-details .portfolio-details-slider img {
+.releases-details .releases-details-slider img {
   width: 100%;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.releases-details .releases-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details
-  .portfolio-details-slider
+.releases-details
+  .releases-details-slider
   .swiper-pagination
   .swiper-pagination-bullet {
   width: 12px;
@@ -1123,19 +1123,19 @@ section {
   opacity: 1;
   border: 1px solid #be844d;
 }
-.portfolio-details
-  .portfolio-details-slider
+.releases-details
+  .releases-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
   background-color: #be844d;
 }
-.portfolio-details .portfolio-info {
+.releases-details .releases-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(21, 34, 43, 0.08);
   background-color: #24211e;
   border-radius: 20px;
 }
-.portfolio-details .portfolio-info h3 {
+.releases-details .releases-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1143,26 +1143,26 @@ section {
   border-bottom: 1px solid #eee;
   color: #fff;
 }
-.portfolio-details .portfolio-info ul {
+.releases-details .releases-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
   color: #fff;
 }
-.portfolio-details .portfolio-info ul li + li {
+.releases-details .releases-info ul li + li {
   margin-top: 10px;
 }
-.portfolio-details .portfolio-description {
+.releases-details .releases-description {
   padding-top: 30px;
   color: #fff;
   text-align: center;
 }
-.portfolio-details .portfolio-description h2 {
+.releases-details .releases-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-.portfolio-details .portfolio-description p {
+.releases-details .releases-description p {
   padding: 0;
   text-align: center;
 }
