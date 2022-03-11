@@ -1069,13 +1069,18 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #ff4a17;
+  background: #be844d;
   padding: 15px 20px;
 }
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
+  width: 14em; 
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+
 }
 .portfolio .portfolio-item .portfolio-info p {
   color: #fff;
