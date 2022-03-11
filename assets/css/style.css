@@ -1524,6 +1524,13 @@ section {
   transition: 0.3s;
 }
 
+
+@media only screen and (max-width: 700px) {
+  .about .content {
+    font-size: 15px;
+  }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   a.btn-facebook {
     margin-left: 10em !important;
