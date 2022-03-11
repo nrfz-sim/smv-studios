@@ -1191,6 +1191,11 @@ section {
   font-size: 28px;
   font-weight: 400;
   color: #fff;
+  width: 18em;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default; 
 }
 .breadcrumbs ol {
   display: flex;
@@ -1202,6 +1207,11 @@ section {
 .breadcrumbs ol li + li {
   padding-left: 10px;
   color: #be844d;
+  width: 14em;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default; 
 }
 .breadcrumbs ol li + li::before {
   display: inline-block;
