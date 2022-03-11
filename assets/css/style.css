@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #444444;
 }
 
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -125,7 +125,7 @@ h6 {
 }
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(21, 34, 43, 0.85);
+  background: rgba(0, 0, 0, 0.85);
   padding: 10px 0;
 }
 #header .logo a {
@@ -268,6 +268,19 @@ h6 {
   left: 100%;
   visibility: visible;
 }
+
+
+.btn-youtube {
+  background-color: #fe000f ;
+}
+
+.btn-youtube:hover {
+  background-color: #501317;
+    border-color: rgba(0,0,0,0.2);
+}
+
+
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -518,8 +531,9 @@ section {
 --------------------------------------------------------------*/
 .about .container {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding-bottom: 15px;
+  padding: 3em;
 }
+
 .about .count-box {
   padding: 60px 0;
   width: 100%;
@@ -560,13 +574,22 @@ section {
   color: #477392;
 }
 .about .content {
-  font-size: 15px;
+  font-size: 17px;
 }
 .about .content h3 {
   font-weight: 700;
   font-size: 24px;
   color: #263d4d;
+  text-align: center;
+  padding-bottom: 0.3em;
 }
+
+.about p.fst-italic {
+  font-style: italic!important;
+  text-align: justify;
+  padding-bottom: 0.2em;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -1479,19 +1502,19 @@ section {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  a.getstarted.scrollto {
+  a.btn-facebook {
     margin-left: 10em !important;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  a.getstarted.scrollto {
+  a.btn-facebook {
     margin-left: 16em !important;
   }
 }
 
 @media only screen and (min-width: 1400px) {
-  a.getstarted.scrollto {
+  a.btn-facebook {
     margin-left: 23em !important;
   }
 }
