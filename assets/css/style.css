@@ -1,9 +1,3 @@
-/**
-* Template Name: Dewi - v4.7.0
-* Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -343,7 +337,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #24211e;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -351,12 +345,12 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #15222b;
+  color: #fff;
 }
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #ff4a17;
+  color: #fff;
 }
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
@@ -1188,7 +1182,7 @@ section {
 }
 @media (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 52px;
+    margin-top: 92px;
   }
   .breadcrumbs .d-flex {
     display: block !important;
