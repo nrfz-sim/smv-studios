@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -854,7 +853,6 @@ section {
   background-color: #be844d;
 }
 
-
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -870,10 +868,10 @@ section {
   font-weight: 400;
   color: #fff;
   width: 18em;
-  white-space: nowrap; 
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  cursor: default; 
+  cursor: default;
 }
 .breadcrumbs ol {
   display: flex;
@@ -886,10 +884,10 @@ section {
   padding-left: 10px;
   color: #be844d;
   width: 14em;
-  white-space: nowrap; 
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  cursor: default; 
+  cursor: default;
 }
 .breadcrumbs ol li + li::before {
   display: inline-block;
@@ -1032,7 +1030,6 @@ section {
   cursor: default;
 }
 
-
 @media only screen and (max-width: 700px) {
   .about .content {
     font-size: 15px;
@@ -1058,20 +1055,20 @@ section {
   }
 }
 
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    a.btn-facebook {
-      margin-left: 10em !important;
-    }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  a.btn-facebook {
+    margin-left: 13em !important;
   }
+}
 
-  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    a.btn-facebook {
-      margin-left: 16em !important;
-    }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  a.btn-facebook {
+    margin-left: 19em !important;
   }
+}
 
-  @media only screen and (min-width: 1400px) {
-    a.btn-facebook {
-      margin-left: 23em !important;
-    }
+@media only screen and (min-width: 1400px) {
+  a.btn-facebook {
+    margin-left: 26em !important;
   }
+}
