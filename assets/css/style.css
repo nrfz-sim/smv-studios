@@ -597,22 +597,22 @@ section {
 
 
 /*--------------------------------------------------------------
-# Projects
+# Projects/ Support
 --------------------------------------------------------------*/
-.projects .icon-box {
+.projects .icon-box, .support .icon-box {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
   background: #2c2925;
 }
-.projects .icon-box i {
+.projects .icon-box i, .support .icon-box i {
   float: left;
   color: #fff;
   font-size: 40px;
   line-height: 0;
   margin-top: 0.5em;
 }
-.projects .icon-box h4 {
+.projects .icon-box h4, .support .icon-box h4 {
   margin-left: 70px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -620,12 +620,24 @@ section {
   color: #fff;
   cursor: default;
 }
-.projects .icon-box p {
+.projects .icon-box p, .support .icon-box p {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
   color: #fff;
   cursor: default;
+}
+
+.btn-outline-download {
+  color: #be844d;
+  border-color: #be844d;
+  margin-top: 1em;
+  margin-left: 70px;
+}
+
+.btn-outline-download:hover {
+  color: #000;
+  background-color: #be844d;
 }
 
 /*--------------------------------------------------------------
@@ -1058,20 +1070,21 @@ section {
   }
 }
 
+/* Socials */
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     a.btn-facebook {
-      margin-left: 13em !important;
+      margin-left: 10em !important;
     }
   }
 
   @media only screen and (min-width: 1200px) and (max-width: 1399px) {
     a.btn-facebook {
-      margin-left: 19em !important;
+      margin-left: 16em !important;
     }
   }
 
   @media only screen and (min-width: 1400px) {
     a.btn-facebook {
-      margin-left: 26em !important;
+      margin-left: 23em !important;
     }
   }
