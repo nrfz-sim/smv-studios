@@ -529,6 +529,10 @@ section {
   cursor: default;
 }
 
+.qty-opsCat {
+  color: #a5875e;
+}
+
 @media (min-width: 768px) {
   .col-md-6.opscat {
     flex: 0 0 auto;
