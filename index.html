@@ -14,9 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -24,56 +24,45 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/bootstrap-social.css" rel="stylesheet">
-
-  <!-- Add-Ons Files -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
 
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+  <header id="header" class="d-flex flex-column justify-content-center">
 
-      <!-- Navbar -->
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
-          <li><a class="nav-link scrollto " href="#releases">Releases</a></li>
-          <li><a class="nav-link scrollto " href="#support">Support</a></li>
-          <li>
-            <a href="https://www.facebook.com/SMRTVRT" class="btn btn-social-icon btn-facebook">
-              <span class="fa-brands fa-facebook"></span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/c/SMRTGVirtual" class="btn btn-social-icon btn-youtube">
-              <span class="fa-brands fa-youtube"></span>
-            </a>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- End of Navbar -->
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="fa-solid fa-circle-info"></i> <span>About Us</span></a>
+        </li>
+        <li><a href="#info" class="nav-link scrollto"><i class="fa-solid fa-location-arrow"></i> <span>Our Maps &
+              Routes</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="fa-solid fa-download"></i> <span>Files &
+              Releases</span></a>
+        </li>
+      </ul>
+    </nav><!-- .nav-menu -->
 
-    </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
-      <img src="assets/img/hello.png" class="img-fluid main-bubble" alt="">
-    </div>
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <p><span class="typed" data-typed-items="Hello from"></span></p>
+      <h1>SMRT Virtual</h1>
+      <div class="social-links">
+        <a href="https://www.facebook.com/SMRTVRT" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.youtube.com/@SMRTVirtual" class="instagram"><i class="bx bxl-youtube"></i></a>
+      </div>
     </div>
   </section><!-- End Hero -->
 
@@ -82,246 +71,322 @@
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+
         <div class="row">
-
-          <div class="col-lg-6 video-box align-self-baseline" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 pt-4-img">
+            <img src="assets/img/about.png" class="img-fluid about-img center-block" alt="">
           </div>
-
-          <div class="col-lg-6 pt-3 pt-lg-0 content">
+          <div class="col-lg-8 pt-4 content">
             <h3>We are a Virtual Transport Operator</h3>
             <p class="fst-italic">
-              SMRT Virtual is an OMSI 2/OpenBVE simulation, based off SMRT's Trains, Light-Rail and Buses, as well as
-              Land Transport Authority's innovations.
-              We are in no way affiliated with SMRT, just inspired by them.
-            </p>
-            <p class="fst-italic">
-              Here you'll get to see our designs and concepts, being implemented in OMSI 2 and OpenBVE. You will also
-              get to
-              see our ideas and products being showcased. Once again, we are not affiliated with the real-life SMRT.
 
-              <b>Currently on an indefinite hiatus, due to personal commitments.</b>
             </p>
+            <div class="row">
+              <div class="col-lg-12">
+                <ul>
+                  <li><i class="bi-arrow-right-circle-fill"></i> <span>
+                      SMRT Virtual is an OMSI 2/OpenBVE simulation, based off SMRT's Trains, Light-Rail and Buses, as
+                      well as Land Transport Authority's innovations.
+                      We are in no way affiliated with SMRT, just inspired by them. </span>
+                  </li>
+
+                  <li><i class="bi-arrow-right-circle-fill"></i> <span>
+                      Here you'll get to see our designs and concepts, being implemented in OMSI 2 and OpenBVE. You will
+                      also get to
+                      see our ideas and products being showcased. We are not affiliated with the real-life
+                      SMRT.
+
+                      <br><b>Currently on an indefinite hiatus, due to personal commitments.</b>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section><!-- End of About Section -->
 
 
-
-    <!-- ======= Projects Section ======= -->
-    <section id="projects" class="projects section-bg">
+    <!-- ======= Our Maps & Routes Section ======= -->
+    <section id="info" class="info section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Projects</h2>
-          <p>Our Projects so far</p>
+          <h2>All you need to know about SMRT Virtual</h2>
+          <p>SMRT Virtual operates over 5 OMSI 2 Maps and 5 OpenBVE Train Routes</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-md-6">
+          <h3 class="operations-category"><i class="fa-solid fa-bus"></i> Buses - OMSI 2</h3><br><br>
+
+          <div class="col-md-6 opscat">
             <div class="icon-box">
-              <i class="fa-solid fa-map"></i>
-              <h4>Hillgrove Town (2.0)</a></h4>
-              <p>A map made in-house by SMRT Virtual Studios. Includes 15 drivable services –
-                301, 302, 307, 308, 971, 973, 974, 975, 976, 979, 983, 984, 989, 990 and 991.</p>
+              <i class="fa-solid fa-location-dot"></i>
+              <h4>Hillgrove Town</a></h4>
+              <p>Hillgrove Town is a map made in-house by SMV Studios.
+                This map includes 15 drivable services – 301, 302, 307, 308, 971, 973, 974, 975, 976, 979, 983, 984,
+                989, 990 and 991.</p>
             </div>
           </div>
-          <div class="col-md-6 mt-4 mt-md-0">
+
+          <div class="col-md-6 opscat">
             <div class="icon-box">
-              <i class="fa-solid fa-map"></i>
+              <i class="fa-solid fa-location-dot"></i>
               <h4>Woodlands Town</a></h4>
-              <p>A map made in-house by RRTS Studios, but taken over from where they have left off, by
-                SMRT Virtual Studios. Includes 14 drivable services – 401, 858, 882, 883, 885, 889, 901, 902,
-                903, 911/T, 965 and IKEA Shuttle (A&S).</p>
+              <p>Woodlands Town is a map made in-house by RRTS Studios, but taken over from where they have left off, by
+                SMV Studios. This map includes 15 drivable services – 401, 402, 858, 881, 882, 883, 885, 886,
+                889, 901, 902,
+                903, 911/T and 965.</p>
             </div>
           </div>
-          <div class="col-md-6 mt-4 mt-md-0">
+
+          <div class="col-md-6 opscat">
             <div class="icon-box">
-              <i class="fa-solid fa-train-subway"></i>
-              <h4>OpenBVE Trains</a></h4>
-              <p>Fictional Trains modified with advanced features like STARiS etc.
+              <i class="fa-solid fa-location-dot"></i>
+              <h4>Berlin (BRT)</a></h4>
+              <p>Berlin BRT is an add-on DLC map.
+                This map includes 17 drivable services – X1, X10, 110, 115, 285, 601, 620, 621, 623, 625, 626, M19, M29,
+                N10, N12, N13, N84.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 opscat">
+            <div class="icon-box">
+              <i class="fa-solid fa-location-dot"></i>
+              <h4>Lemmental</a></h4>
+              <p>Lemmental is a freeware map.
+                This map includes 20 drivable services – 100, SB51, SB52, 450, 451, 452, 453, 454, 455, 456, 457, 458,
+                459, NE40, N41, N42, N43, N44, N45, N46.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 opscat">
+            <div class="icon-box">
+              <i class="fa-solid fa-location-dot"></i>
+              <h4>Great Grundorf 2</a></h4>
+              <p>Great Grundorf 2 is a map made by 3DTransportStudio, with upgrades made in-house by SMV Studios.
+                This map includes 34 drivable services – 66, 67/E, 68, 69, 70/E, 71, 72, 73, 74, 75, 76, 77,
+                78/E, 79, 91, 92, 93, 94, P1, P2, P3, N67, N68, N73, A1, A2, A3, A4, E1, E2, E3 and E3.</p>
+            </div>
+          </div>
+        </div> <br>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="200">
+          <h3 class="operations-category"><i class="fa-solid fa-train"></i> Trains - OpenBVE</h3><br><br>
+          <div class="col-md-6 opscat">
+            <div class="icon-box">
+              <i class="fa-solid fa-location-dot"></i>
+              <h4>Harbourvale Line</a></h4>
+              <p>Harbourvale Line is a map made by Nickgoh45, with upgrades done in-house by SMV Studios.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 opscat">
+            <div class="icon-box">
+              <i class="fa-solid fa-location-dot"></i>
+              <h4>Changi Airport Line (Extension)</a></h4>
+              <p>Changi Airport Line (Extension) is a map made by willis_chong, with upgrades done in-house by SMV Studios.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 opscat">
+            <div class="icon-box">
+              <i class="fa-solid fa-location-dot"></i>
+              <h4>Circle Line</a></h4>
+              <p>Circle Line is a map made by SMB142J Productions, with train upgrades done in-house by SMV Studios.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 opscat">
+            <div class="icon-box">
+              <i class="fa-solid fa-location-dot"></i>
+              <h4>Airport Express Line</a></h4>
+              <p>Airport Express Line is a map made by Nickgoh45, with upgrades done in-house by SMV Studios.
               </p>
             </div>
           </div>
-          <div class="col-md-6 mt-4 mt-md-0">
+
+          <div class="col-md-6 opscat">
             <div class="icon-box">
-              <i class="fa-solid fa-train-subway"></i>
-              <h4>Harbourvale Line Modification Project</a></h4>
-              <p>A project to modernize the original Harbourvale Line.</p>
+              <i class="fa-solid fa-location-dot"></i>
+              <h4>Yishun LRT</a></h4>
+              <p>Yishun LRT is a map made by willis_chong, with upgrades done in-house by SMV Studios.</p>
             </div>
           </div>
         </div>
 
-      </div>
-    </section><!-- End Projects Section -->
 
-    <!-- ======= Releases Section ======= -->
-    <section id="releases" class="releases">
+      </div>
+    </section><!-- End of Our Maps & Routes Section -->
+
+
+    <!-- ======= Files & Releases Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Releases</h2>
-          <p>Check out our released projects</p>
+          <h2>Files & Releases</h2>
+          <p>Check out our released projects! Developer Files are available should you encounter any missing objects
+            when running our maps (OMSI 2).</p>
         </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="releases-flters">
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-omsi2">OMSI 2</li>
-              <li data-filter=".filter-openbve">OpenBVE</li>
+              <li data-filter=".filter-om">OMSI 2</li>
+              <li data-filter=".filter-op">OpenBVE</li>
+              <li data-filter=".filter-df">Developer Files</li>
             </ul>
           </div>
         </div>
 
-        <div class="row releases-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 releases-item filter-omsi2">
-            <img src="assets/img/releases/HT2.png" class="img-fluid" alt="">
-            <div class="releases-info">
-              <h4>Hillgrove Town</h4>
-              <p>Last Updated: 11/2/2023</p>
-              <a href="product-details/hillgrove-town.html" class="details-link" title="More Details"><i
-                  class='bx bxs-download'></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 releases-item filter-omsi2">
-            <img src="assets/img/releases/WT.png" class="img-fluid" alt="">
-            <div class="releases-info">
-              <h4>Woodlands Town</h4>
-              <p>Last Updated: 30/3/2022</p>
-              <a href="product-details/woodlands-town.html" class="details-link" title="More Details"><i
-                  class='bx bxs-download'></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 releases-item filter-openbve">
-            <img src="assets/img/releases/OT.png" class="img-fluid" alt="">
-            <div class="releases-info">
-              <h4>OpenBVE Trains</h4>
-              <p>Last Updated: 2/5/2021</p>
-              <a href="product-details/openbve-trains.html" class="details-link" title="More Details"><i
-                  class='bx bxs-download'></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 releases-item filter-openbve">
-            <img src="assets/img/releases/HL.png" class="img-fluid" alt="">
-            <div class="releases-info">
-              <h4>Harbourvale Line Modification Project</h4>
-              <p>Last Updated: 2/5/2021</p>
-              <a href="product-details/harbourvale-line.html" class="details-link" title="More Details"><i
-                  class='bx bxs-download'></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Releases Section -->
-
-    <!-- ======= Support Section ======= -->
-    <section id="support" class="support section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Support</h2>
-          <p>Developer files</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-md-6">
-            <div class="icon-box">
-              <i class="fa-solid fa-map"></i>
-              <h4>Sceneryobjects (Alternative)</a></h4>
-              <p>Facing issues? You can try and download the Developer's copy of Sceneryobjects folder and see if the
-                problems are solved. </p>
-              <a href="https://mega.nz/file/o40EwaiD#WUe4RH3nO3iWUZ674XLasMPXBzRGBHghj6aJ1jI452Y"
-                target="_blank"><button type="button" class="btn btn-outline-download">Download Here</button></a>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="fa-solid fa-font"></i>
-              <h4>Fonts (Alternative)</a></h4>
-              <p>Missing Texts in the maps? You can try and download the Developer's copy of the Fonts folder and see if
-                the problems are solved. </p>
-              <a href="https://mega.nz/file/BtsyXA5C#a6HldMenoUz2mpMwXb612SpeBfm6oUg9p3c1-WbbpcI"
-                target="_blank"><button type="button" class="btn btn-outline-download">Download Here</button></a>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="fa-solid fa-road"></i>
-              <h4>Splines (Alternative)</a></h4>
-              <p>Objects not working properly? You can try and download the Developer's copy of the Splines folder
-                and see if the problems are solved.
-              </p>
-              <a href="https://mega.nz/file/p8kXACyR#v-kb3tCXo2DmCimFz95V-tueAhjWMDZk4SvHxiuqwJw"
-                target="_blank"><button type="button" class="btn btn-outline-download">Download Here</button></a>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box">
-              <i class="fa-solid fa-bus"></i>
-              <h4>ChuraKrueger (K++) Scripts</a></h4>
-              <p>EDS not working properly? You can try and download the Developer's copy of the EDS Scripts folder
-                for different buses and see if the problems are solved.
-              </p>
-              <a href="https://mega.nz/file/ks0HDDza#G1X-eVBCq4aaiHIKWIl9nrwkmPi5CeTezbRtB3PWIHA"
-              target="_blank"><button type="button" class="btn btn-outline-download">Download Here</button></a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Projects Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Best OMSI 2 Maps I've ever tried
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
+        <!-- Releases -->
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-om">
+            <div class="portfolio-wrap">
+              <img src="https://i.imgur.com/zPb835a.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Hillgrove Town</h4>
+                <p>OMSI 2</p>
+                <div class="portfolio-links">
+                  <a href="https://i.imgur.com/zPb835a.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Hillgrove Town"><i class="bi bi-zoom-in"></i></a>
+                  <a href="releases/hillgrove-town.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                    title="Download Here"><i class="fa-solid fa-download"></i></a>
+                </div>
               </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Really loved the modified Harbourvale Line. Gives a refreshing feel from the original map.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Woodlands Town is a nice map. Really loved driving in this map.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+            </div>
           </div>
-          <div class="swiper-pagination"></div>
-        </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-om">
+            <div class="portfolio-wrap">
+              <img src="https://i.imgur.com/IbSGACZ.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Woodlands Town</h4>
+                <p>OMSI 2</p>
+                <div class="portfolio-links">
+                  <a href="https://i.imgur.com/IbSGACZ.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Woodlands Town"><i class="bi bi-zoom-in"></i></a>
+                  <a href="releases/woodlands-town.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                    title="Download Here"><i class="fa-solid fa-download"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-op">
+            <div class="portfolio-wrap">
+              <img src="https://i.imgur.com/KdM9sPR.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>OpenBVE Trains</h4>
+                <p>OpenBVE</p>
+                <div class="portfolio-links">
+                  <a href="https://i.imgur.com/KdM9sPR.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="OpenBVE Trains"><i class="bi bi-zoom-in"></i></a>
+                    <a href="releases/openbve-trains.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                    title="Download Here"><i class="fa-solid fa-download"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-op">
+            <div class="portfolio-wrap">
+              <img src="https://i.imgur.com/GZTu81J.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Harbourvale Line Modification Project</h4>
+                <p>OpenBVE</p>
+                <div class="portfolio-links">
+                  <a href="https://i.imgur.com/GZTu81J.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Harbourvale Line Modification Project"><i class="bi bi-zoom-in"></i></a>
+                  <a href="releases/harbourvale-line.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                    title="Download Here"><i class="fa-solid fa-download"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Developer Files -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-df">
+            <div class="portfolio-wrap">
+              <img src="https://i.imgur.com/JBHRj50.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sceneryobjects (Alternative)</h4>
+                <p style="text-transform:none;">Facing issues? You can try and download the Developer's copy of
+                  Sceneryobjects folder and see if the problems are solved.</p>
+                <div class="portfolio-links">
+                  <a href="https://i.imgur.com/JBHRj50.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Sceneryobjects (Alternative)"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://mega.nz/file/o40EwaiD#WUe4RH3nO3iWUZ674XLasMPXBzRGBHghj6aJ1jI452Y" target="_blank" data-glightbox="type: external"
+                    title="Download Here"><i class="fa-solid fa-download"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-df">
+            <div class="portfolio-wrap">
+              <img src="https://i.imgur.com/xaAuCRc.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Fonts (Alternative)</h4>
+                <p style="text-transform:none;">Missing Texts in the maps? You can try and download the Developer's copy
+                  of the Fonts folder and see if the problems are solved.</p>
+                <div class="portfolio-links">
+                  <a href="https://i.imgur.com/JBHRj50.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Fonts (Alternative)"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://mega.nz/file/BtsyXA5C#a6HldMenoUz2mpMwXb612SpeBfm6oUg9p3c1-WbbpcI" target="_blank" data-glightbox="type: external"
+                    title="Download Here"><i class="fa-solid fa-download"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-df">
+            <div class="portfolio-wrap">
+              <img src="https://i.imgur.com/HhSDGk4.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Splines (Alternative)</h4>
+                <p style="text-transform:none;">Objects not working properly? You can try and download the Developer's
+                  copy of the Splines folder and see if the problems are solved.</p>
+                <div class="portfolio-links">
+                  <a href="https://i.imgur.com/HhSDGk4.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Splines (Alternative)"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://mega.nz/file/p8kXACyR#v-kb3tCXo2DmCimFz95V-tueAhjWMDZk4SvHxiuqwJw" target="_blank" data-glightbox="type: external"
+                    title="Download Here"><i class="fa-solid fa-download"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-df">
+            <div class="portfolio-wrap">
+              <img src="https://i.imgur.com/6RHip79.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ChuraKrueger (K++) Scripts</h4>
+                <p style="text-transform:none;">EDS not working properly? You can try and download the Developer's copy
+                  of the EDS Scripts folder for different buses and see if the problems are solved.</p>
+                <div class="portfolio-links">
+                  <a href="https://i.imgur.com/6RHip79.png" data-gallery="portfolioGallery" class="portfolio-lightbox" data-glightbox="type: external"
+                    title="ChuraKrueger (K++) Scripts"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://mega.nz/file/ks0HDDza#G1X-eVBCq4aaiHIKWIl9nrwkmPi5CeTezbRtB3PWIHA" target="_blank" data-glightbox="type: external"
+                    title="Download Here"><i class="fa-solid fa-download"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
-    </section><!-- End Testimonials Section -->
+    </section><!-- End of Files & Releases Section -->
+
+
+
 
   </main><!-- End #main -->
 
@@ -329,7 +394,10 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>2023</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>2023</span></strong>. All Rights Reserved.
+      </div>
+      <div class="modified">
+        Last Modified: September 2023
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -339,12 +407,14 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
