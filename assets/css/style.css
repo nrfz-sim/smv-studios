@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #a80742;
+  background: #70573a;
   color: #fff;
 }
 
@@ -347,7 +347,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #8b0537;
+  color: #70573a;
 }
 
 @media (max-width: 992px) {
