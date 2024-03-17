@@ -731,7 +731,7 @@ section {
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  background: #131c29;
+  background: #2c2925;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -752,7 +752,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #407edb;
+  color: #be844d;
 }
 
 .portfolio #portfolio-flters li:last-child {
