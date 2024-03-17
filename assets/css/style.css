@@ -764,13 +764,13 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(43, 60, 77, 0.863);
+  background: #38281ad1;
   border-radius: 8px;
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: #223255bb;
+  background: #53392093;
   position: absolute;
   left: 30px;
   right: 30px;
@@ -855,7 +855,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #407edb;
+  color: #d39c68;
 }
 
 .portfolio .portfolio-wrap:hover::before {
