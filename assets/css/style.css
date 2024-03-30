@@ -1222,7 +1222,7 @@ h6 a {
 
 .port-cover-info {
   background-size: cover;
-  background-position: top center;
+  background-position: 45% 37% ;
   position: relative;
   height: 50vh;
 }
