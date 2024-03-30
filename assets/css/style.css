@@ -502,6 +502,52 @@ section {
   background: #2c2925;
 }
 
+/*  */
+.projects .icon-box-link,
+.info .icon-box-link {
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px;
+  background: #2c2925;
+}
+
+.projects .icon-box-link,
+.info .icon-box-link:hover {
+  background-color: #6c4a2b;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.projects .icon-box-link i,
+.info .icon-box-link i {
+  float: left;
+  color: #fff;
+  font-size: 40px;
+  line-height: 0;
+  margin-top: 0.5em;
+}
+
+.projects .icon-box-link h4,
+.info .icon-box-link h4 {
+  margin-left: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #fff;
+  cursor: default;
+}
+
+.projects .icon-box-link p,
+.info .icon-box-link p {
+  margin-left: 70px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #fff;
+  cursor: default;
+}
+
+
+/*  */
 .projects .icon-box i,
 .info .icon-box i {
   float: left;
@@ -985,7 +1031,7 @@ section {
 }
 
 
-/*  */
+/* Releases */
 
 h6 a {
   color: #fff;
@@ -1018,6 +1064,7 @@ h6 a {
   background-position: top center;
   position: relative;
 }
+
 
 .port-cover.single-page h1, .port-cover.single-page .h1 {
   color: #fff;
@@ -1111,6 +1158,170 @@ h4.sa-post {
   font-size: 14px;
   color: #b3b3b3;
 }
+
+
+
+
+/* Info */
+
+h6 a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.portfolio-details .portfolio-description h3.package-title {
+  font-size: 40px;
+}
+
+.info-table {
+  border: 1px solid #fff;
+}
+
+.info-table th {
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.info-table td.first {
+  font-weight: bold;
+  border: 1px solid #fff;
+  width: 20%;
+}
+
+.info-table td.second {
+  width: 40%;
+}
+
+.info-table tr.info-det {
+  color: #fff;
+}
+
+
+
+.port-cover-info.overlay:before {
+  background: rgba(0, 0, 0, 0.542);
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.port-cover-info > .container {
+  position: relative;
+  z-index: 2;
+}
+
+.port-cover-info, .port-cover-info .same-height {
+  padding: 3em 0;
+}
+
+.port-cover-info {
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  height: 50vh;
+}
+
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.post-meta .author-figure img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.sidebar-box {
+  margin-bottom: 4em;
+  font-size: 15px;
+  width: 100%;
+  float: left;
+  background: #111111;
+  box-shadow: 0px 0 30px rgba(69, 80, 91, 0.08);
+  border-radius: 20px;
+}
+
+.sidebar-box .heading {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+  margin: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  cursor: default;
+}
+
+.port-entry-sidebar ul li, .port-entry-footer ul li {
+  list-style: none;
+  padding: 0 0 20px 0;
+  margin: 20px;
+}
+
+.port-entry-sidebar ul li a, .port-entry-footer ul li a {
+  display: table;
+  color: #fff;
+}
+
+.port-entry-sidebar ul li a img, .port-entry-sidebar ul li a .text, .port-entry-footer ul li a img, .port-entry-footer ul li a .text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.port-entry-sidebar ul li a img, .port-entry-footer ul li a img {
+  width: 90px;
+}
+
+.rounded {
+  border-radius: 0.25rem !important;
+}
+
+.me-4 {
+  margin-right: 1.5rem !important;
+}
+
+.port-entry-sidebar ul li a .text h4, .port-entry-sidebar ul li a .text .h4, .port-entry-footer ul li a .text h4, .port-entry-footer ul li a .text .h4 {
+  font-size: 18px;
+}
+
+.port-entry-sidebar ul li a img, .port-entry-sidebar ul li a .text, .port-entry-footer ul li a img, .port-entry-footer ul li a .text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.sidebar-box *:last-child {
+  margin-bottom: 0;
+}
+
+.port-entry-sidebar ul, .port-entry-footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+h4.sa-post {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.port-entry-sidebar .post-meta, .port-entry-footer .post-meta {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Footer
